@@ -1,76 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Registration</title>
-  </head>
-  <body>
-    <div class="container">
-      <button type="button" class="btn-close">
-        <img src="./img/close-btn-img.svg" alt="close" />
-      </button>
-      <div class="header">
-        <a href="#!" class="header__link header__link_active">Login</a>
-        <a href="#!" class="header__link">Register</a>
-      </div>
-      <h1 class="heading">Enter your email and password to register.</h1>
-      <form class="form" action="https://fom.in.ua/echo">
-        <input
-          class="form__input"
-          type="text"
-          name="Username"
-          placeholder="Username"
-          required
-        />
-        <input
-          minlength="3"
-          maxlength="40"
-          class="form__input"
-          type="email"
-          name="Email"
-          placeholder="Enter your email address"
-          required
-        />
-        <div class="password-container">
-          <input
-            minlength="8"
-            maxlength="16"
-            class="form__input form__input_password"
-            type="password"
-            name="Password"
-            placeholder="Password"
-            required
-          />
-          <button type="button" class="btn-eye">
-            <img src="./img/hidden-img.svg" alt="hidden" />
-          </button>
-        </div>
-        <input
-          minlength="8"
-          maxlength="16"
-          class="form__input"
-          type="password"
-          name="ConfirmPassword"
-          placeholder="Confirm Password"
-          required
-        />
-        <div class="form__btn-wrapper">
-          <button class="form__button" type="submit">Register</button>
-        </div>
-      </form>
-      <h2 class="subheading">Or register with</h2>
-      <div class="footer">
-        <a class="footer__link" href="#!">
-          <img src="./img/google-img.svg" alt="googleLogo" />
-          Continue with Google
-        </a>
-        <a class="footer__link" href="#!">
-          <img src="./img/facebook-img.svg" alt="facebookLogo" />
-          Continue with Facebook
-        </a>
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header container">
+    <div class="header__logo">
+      <a href="#!" class="header__logo-link">
+        <img src="./img/logo.svg" alt="logo">
+      </a>
     </div>
-  </body>
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__list-item">
+          <a href="#!" class="header__list-link header__list-link_active">Home</a>
+        </li>
+        <li class="header__list-item">
+          <a href="#!" class="header__list-link">Shop</a>
+        </li>
+        <li class="header__list-item">
+          <a href="#!" class="header__list-link">Plant Care</a>
+        </li>
+        <li class="header__list-item">
+          <a href="#!" class="header__list-link">Blogs</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__buttons">
+      <button type="button" class="btn btn_small">
+        <img src="./img/Logout.svg" alt="Logout">
+        Login
+      </button>
+    </div>
+  </header>
+  <main>
+  </main>
+</body>
 </html>

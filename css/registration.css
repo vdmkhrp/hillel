@@ -1,18 +1,7 @@
 @import "./reset.css";
 
-* {
-  box-sizing: border-box;
+body {
   font-size: 13px;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  display: block;
-  max-height: 100%;
-  max-width: 100%;
 }
 
 .container {
