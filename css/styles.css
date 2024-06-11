@@ -1,145 +1,19 @@
 @import "./reset.css";
 
-.container {
-  width: 83.33%;
-  margin: 0 auto;
+@font-face {
+  font-family: 'CeraPro-Light', sans-serif;
+  src: url(../fonts/CeraPro-Light.ttf);
+  font-weight: 300;
 }
 
-.header {
-  border-bottom: 1px solid #46a358;
-  padding-top: 30px;
-  font-size: 0;
-  margin-bottom: 12px;
+@font-face {
+  font-family: 'CeraPro-Regular', sans-serif;
+  src: url(../fonts/CeraPro-Regular.ttf);
+  font-weight: 400;
 }
 
-.header__logo {
-  display: inline-block;
-  width: 25%;
-  vertical-align: top;
-}
-
-.header__logo-link {
-  display: block;
-  width: 150px;
-}
-
-.header__nav {
-  display: inline-block;
-  width: 50%;
-  vertical-align: top;
-}
-
-.header__list {
-  text-align: center;
-}
-
-.header__list-item {
-  display: inline-block;
-}
-
-.header__list-link {
-  color: #3d3d3d;
-  font-size: 16px;
-  display: block;
-  padding-bottom: 25px;
-  border-bottom: 3px solid transparent;
-  padding-top: 8px;
-}
-
-.header__list-link_active {
+@font-face {
+  font-family: 'CeraPro-Bold', sans-serif;
+  src: url(../fonts/CeraPro-Bold.ttf);
   font-weight: 700;
-  border-bottom-color: #46a358;
-  pointer-events: none;
-}
-
-.header__list-link:hover {
-  border-bottom-color: #46a358;
-}
-
-.header__buttons {
-  display: inline-block;
-  width: 25%;
-  text-align: right;
-  vertical-align: top;
-}
-
-.header__list-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.btn {
-  background-color: #46a358;
-  border: none;
-  border-radius: 6px;
-  color: #fff;
-  vertical-align: middle;
-}
-
-.btn_small {
-  padding: 8px 17px;
-  line-height: 20px;
-}
-
-.btn img {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin-right: 4px;
-  vertical-align: middle;
-}
-
-.banner {
-  background-color: #fafafa;
-  margin-bottom: 52px;
-  font-size: 0;
-}
-
-.banner__content {
-  display: inline-block;
-  width: 50%;
-  margin-top: 68px;
-  padding-left: 40px;
-  vertical-align: top;
-}
-
-.banner__subtitle {
-  font-size: 14px;
-  font-weight: 500;
-  color: #3d3d3d;
-  margin-bottom: 7px;
-}
-
-.banner__title {
-  font-size: 70px;
-  font-weight: 800;
-  color: #3d3d3d;
-  text-transform: uppercase;
-  margin-bottom: 5px;
-}
-
-.banner__title span {
-  color: #46a358;
-}
-
-.banner__text {
-  font-size: 14px;
-  color: #727272;
-  margin-bottom: 44px;
-  line-height: 24px;
-  width: 93%;
-}
-
-.btn__medium {
-  padding: 10px 26px;
-  text-transform: uppercase;
-  margin-bottom: 85px;
-}
-
-.banner__img {
-  display: inline-block;
-  width: 50%;
-}
-
-.banner__img img {
-  margin-left: auto;
 }
