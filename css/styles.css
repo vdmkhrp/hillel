@@ -17,3 +17,49 @@
   src: url(../fonts/CeraPro-Bold.ttf);
   font-weight: 700;
 }
+
+.container {
+  width: 86%;
+  margin: 0 auto;
+}
+
+.flowers {
+  padding-top: 170px;
+}
+
+.flowers__categories {
+  padding-top: 14px;
+  padding-left: 18px;
+  float: left;
+  background-color: #FBFBFB;
+}
+
+.flowers__title {
+  font-family: 'CeraPro-Bold', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #3D3D3D;
+  margin-bottom: 7px;
+}
+
+.flowers__list {
+}
+
+.flowers__list-item {
+}
+
+.flowers__list-link {
+  font-family: 'CeraPro-Regular', sans-serif;
+  font-size: 15px;
+  line-height: 40px;
+  color: #3D3D3D;
+  transition: ease 0.3s;
+}
+
+.flowers__list-link:hover {
+  color: #46A358;
+}
+
+.flowers__header {
+  background-color: #46A358;
+}
