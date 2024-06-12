@@ -23,18 +23,24 @@
   margin: 0 auto;
 }
 
-.flowers {
+.plants {
   padding-top: 170px;
+  font-size: 0;
 }
 
-.flowers__categories {
+.plants__menu {
+  display: inline-block;
+  width: 26%;
   padding-top: 14px;
-  padding-left: 18px;
-  float: left;
   background-color: #FBFBFB;
 }
 
-.flowers__title {
+.plants__menu-nav {
+  padding: 0 18px;
+  margin-bottom: 377px;
+}
+
+.plants__menu-title {
   font-family: 'CeraPro-Bold', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -42,13 +48,11 @@
   margin-bottom: 7px;
 }
 
-.flowers__list {
+.plants__menu-list {
+  white-space: nowrap;
 }
 
-.flowers__list-item {
-}
-
-.flowers__list-link {
+.plants__menu-link {
   font-family: 'CeraPro-Regular', sans-serif;
   font-size: 15px;
   line-height: 40px;
@@ -56,10 +60,29 @@
   transition: ease 0.3s;
 }
 
-.flowers__list-link:hover {
+.plants__menu-link:hover {
   color: #46A358;
 }
 
-.flowers__header {
-  background-color: #46A358;
+.plants__content {
+  display: inline-block;
+  width: 74%;
+  font-size: 15px;
+  vertical-align: top;
+  padding-left: 50px;
+}
+
+.plants__nav {
+  margin-bottom: 31px;
+}
+
+.cards__item {
+  width: 30%;
+  float: left;
+  margin-right: 33px;
+  margin-bottom: 70px;
+}
+
+.cards__item img {
+  height: 250px;
 }
