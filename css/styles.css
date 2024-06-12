@@ -1,25 +1,25 @@
 @import "./reset.css";
 
 @font-face {
-  font-family: 'CeraPro-Light', sans-serif;
+  font-family: "CeraPro-Light", sans-serif;
   src: url(../fonts/CeraPro-Light.ttf);
   font-weight: 300;
 }
 
 @font-face {
-  font-family: 'CeraPro-Regular', sans-serif;
+  font-family: "CeraPro-Regular", sans-serif;
   src: url(../fonts/CeraPro-Regular.ttf);
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'CeraPro-Bold', sans-serif;
+  font-family: "CeraPro-Bold", sans-serif;
   src: url(../fonts/CeraPro-Bold.ttf);
   font-weight: 700;
 }
 
 .container {
-  width: 86%;
+  width: 83.333%;
   margin: 0 auto;
 }
 
@@ -32,19 +32,19 @@
   display: inline-block;
   width: 26%;
   padding-top: 14px;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
 }
 
 .plants__menu-nav {
   padding: 0 18px;
-  margin-bottom: 377px;
+  margin-bottom: 232px;
 }
 
 .plants__menu-title {
-  font-family: 'CeraPro-Bold', sans-serif;
+  font-family: "CeraPro-Bold", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: #3D3D3D;
+  color: #3d3d3d;
   margin-bottom: 7px;
 }
 
@@ -53,36 +53,163 @@
 }
 
 .plants__menu-link {
-  font-family: 'CeraPro-Regular', sans-serif;
+  font-family: "CeraPro-Regular", sans-serif;
   font-size: 15px;
   line-height: 40px;
-  color: #3D3D3D;
-  transition: ease 0.3s;
+  color: #3d3d3d;
+  transition: ease 0.2s;
 }
 
 .plants__menu-link:hover {
-  color: #46A358;
+  color: #46a358;
 }
 
 .plants__content {
   display: inline-block;
   width: 74%;
-  font-size: 15px;
   vertical-align: top;
   padding-left: 50px;
 }
-
-.plants__nav {
+.plants__header {
   margin-bottom: 31px;
 }
 
+.plants__nav {
+  width: 50%;
+  display: inline-block;
+}
+
+.plants__nav-item {
+  display: inline-block;
+}
+
+.plants__nav-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.plants__nav-link {
+  font-family: "CeraPro-Regular", sans-serif;
+  font-size: 16px;
+  color: #3d3d3d;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 8px;
+  transition: ease 0.2s;
+}
+
+.plants__nav-link_active {
+  font-family: "CeraPro-Bold", sans-serif;
+  font-weight: 700;
+  color: #46a358;
+  border-bottom-color: #46a358;
+  pointer-events: none;
+}
+
+.plants__nav-link:hover {
+  color: #46a358;
+  border-bottom-color: #46a358;
+}
+
+.plants__sorting {
+  width: 50%;
+  display: inline-block;
+  text-align: end;
+  font-family: "CeraPro-Regular", sans-serif;
+  font-size: 15px;
+  color: #3d3d3d;
+}
+
+.plants__sorting p {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.plants__sorting-link {
+  color: #3d3d3d;
+  padding-right: 5px;
+}
+
+.plants__sorting-link img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.plants__cards {
+  margin-bottom: 20px;
+}
+
 .cards__item {
-  width: 30%;
+  width: 29%;
   float: left;
-  margin-right: 33px;
   margin-bottom: 70px;
+  margin-right: 33px;
 }
 
 .cards__item img {
+  width: 250px;
   height: 250px;
+  margin-bottom: 12px;
+  background-color: #fbfbfb;
+}
+
+.cards__title {
+  font-family: "CeraPro-Regular", sans-serif;
+  font-size: 16px;
+  color: #3d3d3d;
+  margin-bottom: 6px;
+}
+
+.cards__price {
+  font-family: "CeraPro-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #46a358;
+  transition: ease 0.2s;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.plants__pages {
+  text-align: end;
+  margin-bottom: 82px;
+}
+
+.pages__link {
+  display: inline-block;
+  padding: 8px 12px;
+  font-family: "CeraPro-Light", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #3d3d3d;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  vertical-align: middle;
+  transition: ease 0.2s;
+}
+
+.pages__link img {
+  width: 9px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.pages__link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.pages__link_active {
+  font-family: "CeraPro-Bold", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  border-color: transparent;
+  background-color: #46a358;
+  pointer-events: none;
+}
+
+.pages__link:hover {
+  color: #fff;
+  border-color: transparent;
+  background-color: #46a358;
 }
