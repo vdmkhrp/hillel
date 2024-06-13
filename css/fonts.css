@@ -1,0 +1,34 @@
+/* ----- for cross-browser compatibility ----- */
+
+@font-face {
+  font-family: "CeraPro", sans-serif;
+  src: local("CeraPro"),
+    url("../fonts/CeraProLight.eot") format("embedded-opentype"),
+    url("../fonts/CeraProLight.woff2") format("woff2"),
+    url("../fonts/CeraProLight.woff") format("woff"),
+    url("../fonts/CeraProLight.ttf") format("truetype"),
+    url("../fonts/CeraProLight.svg") format("svg");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "CeraPro", sans-serif;
+  src: local("CeraPro"),
+    url("../fonts/CeraProRegular.eot") format("embedded-opentype"),
+    url("../fonts/CeraProRegular.woff2") format("woff2"),
+    url("../fonts/CeraProRegular.woff") format("woff"),
+    url("../fonts/CeraProRegular.ttf") format("truetype"),
+    url("../fonts/CeraProRegular.svg") format("svg");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "CeraPro", sans-serif;
+  src: local("CeraPro"),
+    url("../fonts/CeraProBold.eot") format("embedded-opentype"),
+    url("../fonts/CeraProBold.woff2") format("woff2"),
+    url("../fonts/CeraProBold.woff") format("woff"),
+    url("../fonts/CeraProBold.ttf") format("truetype"),
+    url("../fonts/CeraProBold.svg") format("svg");
+  font-weight: 700;
+}

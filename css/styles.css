@@ -1,32 +1,15 @@
 @import "./reset.css";
-
-@font-face {
-  font-family: "CeraPro", sans-serif;
-  src: url(../fonts/CeraPro-Light.ttf);
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "CeraPro", sans-serif;
-  src: url(../fonts/CeraPro-Regular.ttf);
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "CeraPro", sans-serif;
-  src: url(../fonts/CeraPro-Bold.ttf);
-  font-weight: 700;
-}
+@import "./fonts.css";
 
 body {
   font-family: "CeraPro", sans-serif;
   font-size: 16px;
-  color: #3D3D3D;
+  color: #3d3d3d;
 }
 
 img {
   max-width: 100%;
-	object-fit: contain;
+  object-fit: contain;
   vertical-align: bottom;
 }
 
@@ -40,7 +23,7 @@ img {
 }
 
 .shop::after {
-  content:'';
+  content: "";
   display: block;
   clear: both;
 }
@@ -49,36 +32,39 @@ img {
   width: 26%;
   float: left;
   padding-top: 14px;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
 }
+
 .sidebar__title {
   margin-left: 18px;
   margin-bottom: 35px;
   font-size: 18px;
   font-weight: 700;
-
 }
+
 .menu-categories {
   margin-left: 30px;
   margin-bottom: 286px;
 }
+
 .menu-categories__item {
   margin-bottom: 25px;
   white-space: nowrap;
 }
+
 .menu-categories__link {
   font-size: 15px;
-  color: #3D3D3D;
+  color: #3d3d3d;
   transition-property: color;
   transition-duration: 0.2s;
   transition-timing-function: ease;
 }
 
 .menu-categories__link:hover {
-  color: #46A358;
+  color: #46a358;
 }
 
-.sidebar__banner img{
+.sidebar__banner img {
   width: 100%;
   height: 100%;
   object-position: center;
@@ -97,7 +83,7 @@ img {
 }
 
 .filter::after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -108,14 +94,14 @@ img {
 }
 
 .nav__link {
-display: inline-block;
-padding-bottom: 10px;
-border-bottom: 2px solid transparent;
-font-size: 15px;
-color: #3D3D3D;
-transition-property: color, border-color;
-transition-duration: 0.2s;
-transition-timing-function: ease;
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+  font-size: 15px;
+  color: #3d3d3d;
+  transition-property: color, border-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
 }
 
 .nav__link:not(:last-child) {
@@ -124,14 +110,14 @@ transition-timing-function: ease;
 
 .nav__link_active {
   font-weight: 700;
-  border-color: #46A358;
-  color: #46A358;
+  border-color: #46a358;
+  color: #46a358;
   cursor: default;
 }
 
 .nav__link:hover {
-  border-color: #46A358;
-  color: #46A358;
+  border-color: #46a358;
+  color: #46a358;
 }
 
 .drop-down {
@@ -149,14 +135,14 @@ transition-timing-function: ease;
   background-color: transparent;
   font-family: "CeraPro", sans-serif;
   font-size: 15px;
-  color: #3D3D3D;
+  color: #3d3d3d;
   transition-property: color;
   transition-duration: 0.2s;
   transition-timing-function: ease;
 }
 
 .drop-down button:hover {
-  color: #46A358;
+  color: #46a358;
   cursor: pointer;
 }
 
@@ -175,7 +161,7 @@ transition-timing-function: ease;
 }
 
 .cards::after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -212,7 +198,7 @@ transition-timing-function: ease;
 }
 .card__price {
   font-weight: 700;
-  color: #46A358;
+  color: #46a358;
 }
 
 .pagination {
@@ -225,11 +211,17 @@ transition-timing-function: ease;
 }
 
 .pagination__link {
+  width: 35px;
+  height: 35px;
   display: block;
-  padding: 8px;
-  color: #3D3D3D;
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: #3d3d3d;
   background-color: #fff;
   border: 1px solid #dee2e6;
+  border-radius: 5px;
 }
 
 .pagination__link:not(:last-child) {
@@ -239,4 +231,19 @@ transition-timing-function: ease;
 .pagination__link img {
   width: 18px;
   height: 18px;
+}
+
+.pagination__link_active {
+  font-weight: 700;
+  background-color: #46a358;
+  border-color: transparent;
+  color: #fff;
+  cursor: default;
+}
+
+.pagination__link:hover {
+  font-weight: 700;
+  background-color: #46a358;
+  border-color: transparent;
+  color: #fff;
 }
