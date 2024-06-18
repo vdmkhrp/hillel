@@ -25,10 +25,32 @@
 @font-face {
   font-family: "CeraPro", sans-serif;
   src: local("CeraPro"),
+    url("../fonts/CeraProMedium.eot") format("embedded-opentype"),
+    url("../fonts/CeraProMedium.woff2") format("woff2"),
+    url("../fonts/CeraProMedium.woff") format("woff"),
+    url("../fonts/CeraProMedium.ttf") format("truetype"),
+    url("../fonts/CeraProMedium.svg") format("svg");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "CeraPro", sans-serif;
+  src: local("CeraPro"),
     url("../fonts/CeraProBold.eot") format("embedded-opentype"),
     url("../fonts/CeraProBold.woff2") format("woff2"),
     url("../fonts/CeraProBold.woff") format("woff"),
     url("../fonts/CeraProBold.ttf") format("truetype"),
     url("../fonts/CeraProBold.svg") format("svg");
   font-weight: 700;
+}
+
+@font-face {
+  font-family: "CeraPro", sans-serif;
+  src: local("CeraPro"),
+    url("../fonts/CeraProBlack.eot") format("embedded-opentype"),
+    url("../fonts/CeraProBlack.woff2") format("woff2"),
+    url("../fonts/CeraProBlack.woff") format("woff"),
+    url("../fonts/CeraProBlack.ttf") format("truetype"),
+    url("../fonts/CeraProBlack.svg") format("svg");
+  font-weight: 900;
 }
