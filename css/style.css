@@ -1,2 +1,14 @@
 @import url(../css/reset.css);
 @import url(../css/fonts.css);
+
+:root {
+  --green: #46A358;
+  --dark-gray: #727272;
+  --bg-gray: #FBFBFB;
+  --light-black: #3D3D3D;
+}
+
+body {
+  color: var(--light-black);
+  font-size: 15px;
+}
