@@ -1,0 +1,66 @@
+.popular-plants {
+  display: flex;
+  column-gap: 28px;
+  row-gap: 28px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  flex-wrap: wrap;
+}
+
+.popular-plants__item {
+  position: relative;
+  flex: 1 1 0;
+  background-color: var(--bg-gray);
+  padding-top: 35px;
+  padding-bottom: 45px;
+  margin-top: 50px;
+}
+
+.popular-plants__img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: -50px;
+  width: 50%;
+}
+
+.popular-plants__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.popular-plants__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 290px;
+  width: 50%;
+  padding-right: 30px;
+  margin-left: auto;
+  text-align: right;
+  padding-left: 10px;
+}
+
+.popular-plants__title {
+  max-width: 150px;
+  font-weight: 900;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.popular-plants__text {
+  font-size: 14px;
+  color: var(--dark-gray);
+  margin-bottom: 25px;
+}
+
+.popular-plants__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2px;
+  padding: 10px 28px;
+  font-size: 14px;
+  font-weight: 500;
+}
