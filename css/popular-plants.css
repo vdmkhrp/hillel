@@ -9,7 +9,7 @@
 
 .popular-plants__item {
   position: relative;
-  flex: 1 1 0;
+  flex: 1 1 400px;
   background-color: var(--bg-gray);
   padding-top: 35px;
   padding-bottom: 45px;
