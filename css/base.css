@@ -1,0 +1,19 @@
+body {
+  font-family: "CeraPro", sans-serif;
+  font-size: 15px;
+  color: var(--light-black);
+}
+
+.container {
+  width: 83.3333%;
+  margin: 0 auto;
+  /* padding-right: 20px;
+  padding-left: 20px; */
+}
+
+.btn-green {
+  border-radius: 6px;
+  background-color: var(--green);
+  color: #fff;
+  padding: 8px 16px;
+}
