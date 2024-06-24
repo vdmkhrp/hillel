@@ -3,204 +3,111 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20,400,0,0"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Green shop</title>
   </head>
   <body>
-    <div class="container">
-      <section class="popular-plants">
-        <div class="popular-plants__item">
-          <div class="popular-plants__img">
-            <img
-              src="./img/plants-1.png"
-              alt="Summer cactus
-          & succulents"
-            />
+    <div class="plants wrapper">
+      <div class="plants__header">
+        <nav class="plants__nav">
+          <a href="#!" class="plants__nav-link plants__nav-link_active"
+            >All Plants</a
+          >
+          <a href="#!" class="plants__nav-link">New Arrivals</a>
+          <a href="#!" class="plants__nav-link">Sale</a>
+        </nav>
+        <div class="plants__filter">
+          <p class="plants__filter-text">Short by:</p>
+          <a href="#!" role="button" class="plants__filter-link">
+            <span>Default sorting</span>
+            <span class="material-symbols-rounded icon">
+              keyboard_arrow_down
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="cards-box">
+        <div class="card-item">
+          <div class="card-item__image">
+            <div class="card-action">
+              <button type="button" class="card-action__btn">
+                <span class="material-symbols-rounded icon">
+                  shopping_cart
+                </span>
+              </button>
+              <button type="button" class="card-action__btn">
+                <span class="material-symbols-rounded icon"> favorite </span>
+              </button>
+              <button type="button" class="card-action__btn">
+                <span class="material-symbols-rounded icon"> search </span>
+              </button>
+            </div>
+            <a href="#!" class="card-item__link-wrapper">
+              <img src="./img/flowers-1.png" alt="Barberton Daisy" />
+            </a>
           </div>
-          <div class="popular-plants__content">
-            <h3 class="popular-plants__title">Summer cactus & succulents</h3>
-            <p class="popular-plants__text">
-              We are an online plant shop offering a wide range of cheap and
-              trendy plants
+          <a href="#!" class="card-item__content">
+            <h4 class="card-item__title">Angel Wing Begonia</h4>
+            <p class="card-item__price">$119.00</p>
+          </a>
+        </div>
+        <div class="card-item">
+          <div class="card-item__image">
+            <div class="card-action">
+              <button type="button" class="card-action__btn">
+                <span class="material-symbols-rounded icon">
+                  shopping_cart
+                </span>
+              </button>
+              <button type="button" class="card-action__btn">
+                <span class="material-symbols-rounded icon"> favorite </span>
+              </button>
+              <button type="button" class="card-action__btn">
+                <span class="material-symbols-rounded icon"> search </span>
+              </button>
+            </div>
+            <a href="#!" class="card-item__link-wrapper">
+              <img src="./img/flowers-2.png" alt="Angel Wing Begonia" />
+            </a>
+          </div>
+          <a href="#!" class="card-item__content">
+            <h4 class="card-item__title">Angel Wing Begonia</h4>
+            <p class="card-item__price">$169.00</p>
+          </a>
+        </div>
+        <div class="card-item">
+          <div class="card-item__image">
+            <div class="card-action">
+              <button type="button" class="card-action__btn">
+                <span class="material-symbols-rounded icon">
+                  shopping_cart
+                </span>
+              </button>
+              <button type="button" class="card-action__btn">
+                <span class="material-symbols-rounded icon"> favorite </span>
+              </button>
+              <button type="button" class="card-action__btn">
+                <span class="material-symbols-rounded icon"> search </span>
+              </button>
+            </div>
+            <a href="#!" class="card-item__link-wrapper">
+              <img src="./img/plants-2.png" alt="African Violet" />
+              <span class="card-item__badge">13% OFF</span>
+            </a>
+          </div>
+          <a href="#!" class="card-item__content">
+            <h4 class="card-item__title">African Violet</h4>
+            <p class="card-item__price">
+              $199.00
+              <span class="card-item__price-sale">$229.00</span>
             </p>
-            <button type="button" class="popular-plants__btn btn">
-              Find More
-              <img src="./img/Arrow-Right-white.svg" alt="" />
-            </button>
-          </div>
+          </a>
         </div>
-        <div class="popular-plants__item">
-          <div class="popular-plants__img">
-            <img
-              src="./img/plants-2.png"
-              alt="Styling Trends
-        & much more"
-            />
-          </div>
-          <div class="popular-plants__content">
-            <h3 class="popular-plants__title">Styling Trends & much more</h3>
-            <p class="popular-plants__text">
-              We are an online plant shop offering a wide range of cheap and
-              trendy plants
-            </p>
-            <button type="button" class="popular-plants__btn btn">
-              Find More
-              <img src="./img/Arrow-Right-white.svg" alt="" />
-            </button>
-          </div>
-        </div>
-      </section>
-      <section class="blog">
-        <div class="blog__header">
-          <h4 class="blog__title">Our Blog Posts</h4>
-          <p class="blog__text">
-            We are an online plant shop offering a wide range of cheap and
-            trendy plants.
-          </p>
-        </div>
-        <div class="blog__cards">
-          <article class="blog-card">
-            <div class="blog-card__img">
-              <img src="./img/blog-1.jpg" alt="Cactus & Succulent Care Tips" />
-            </div>
-            <div class="blog-card__content">
-              <h4 class="blog-card__sub-title">
-                <span>September 12</span> <span>Read in 6 minutes</span>
-              </h4>
-              <h5 class="blog-card__title">Cactus & Succulent Care Tips</h5>
-              <p class="blog-card__text">
-                Cacti are succulents are easy care plants for any home or patio.
-              </p>
-              <a href="#!" class="blog-card__link">
-                Read More
-                <svg
-                  width="16"
-                  height="16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M2.667 7.817a.5.5 0 0 1 .432-.495l.068-.005h10a.5.5 0 0 1 .068.996l-.068.004h-10a.5.5 0 0 1-.5-.5Z"
-                    fill="#3D3D3D"
-                  />
-                  <path
-                    d="M8.78 4.155a.5.5 0 0 1 .65-.757l.056.049 4.034 4.016a.5.5 0 0 1 .048.652l-.048.056-4.034 4.017a.5.5 0 0 1-.754-.653l.049-.056 3.677-3.662-3.677-3.662Z"
-                    fill="#3D3D3D"
-                  />
-                </svg>
-              </a>
-            </div>
-          </article>
-          <article class="blog-card">
-            <div class="blog-card__img">
-              <img
-                src="./img/blog-2.jpg"
-                alt="Top 10 Succulents for
-              Your Home"
-              />
-            </div>
-            <div class="blog-card__content">
-              <h4 class="blog-card__sub-title">
-                <span>September 13</span> <span>Read in 2 minutes</span>
-              </h4>
-              <h5 class="blog-card__title">Top 10 Succulents for Your Home</h5>
-              <p class="blog-card__text">
-                Best in hanging baskets. Prefers medium to high light.
-              </p>
-              <a href="#!" class="blog-card__link">
-                Read More
-                <svg
-                  width="16"
-                  height="16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M2.667 7.817a.5.5 0 0 1 .432-.495l.068-.005h10a.5.5 0 0 1 .068.996l-.068.004h-10a.5.5 0 0 1-.5-.5Z"
-                    fill="#3D3D3D"
-                  />
-                  <path
-                    d="M8.78 4.155a.5.5 0 0 1 .65-.757l.056.049 4.034 4.016a.5.5 0 0 1 .048.652l-.048.056-4.034 4.017a.5.5 0 0 1-.754-.653l.049-.056 3.677-3.662-3.677-3.662Z"
-                    fill="#3D3D3D"
-                  />
-                </svg>
-              </a>
-            </div>
-          </article>
-          <article class="blog-card">
-            <div class="blog-card__img">
-              <img
-                src="./img/blog-3.jpg"
-                alt="Cacti & Succulent 
-              Care Tips"
-              />
-            </div>
-            <div class="blog-card__content">
-              <h4 class="blog-card__sub-title">
-                <span>September 15</span> <span>Read in 3 minutes</span>
-              </h4>
-              <h5 class="blog-card__title">Cacti & Succulent Care Tips</h5>
-              <p class="blog-card__text">
-                Cacti and succulents thrive in containers and because most are..
-              </p>
-              <a href="#!" class="blog-card__link">
-                Read More
-                <svg
-                  width="16"
-                  height="16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M2.667 7.817a.5.5 0 0 1 .432-.495l.068-.005h10a.5.5 0 0 1 .068.996l-.068.004h-10a.5.5 0 0 1-.5-.5Z"
-                    fill="#3D3D3D"
-                  />
-                  <path
-                    d="M8.78 4.155a.5.5 0 0 1 .65-.757l.056.049 4.034 4.016a.5.5 0 0 1 .048.652l-.048.056-4.034 4.017a.5.5 0 0 1-.754-.653l.049-.056 3.677-3.662-3.677-3.662Z"
-                    fill="#3D3D3D"
-                  />
-                </svg>
-              </a>
-            </div>
-          </article>
-          <article class="blog-card">
-            <div class="blog-card__img">
-              <img
-                src="./img/blog-4.jpg"
-                alt="Best Houseplants 
-              Room by Room"
-              />
-            </div>
-            <div class="blog-card__content">
-              <h4 class="blog-card__sub-title">
-                <span>September 15</span> <span>Read in 2 minutes</span>
-              </h4>
-              <h5 class="blog-card__title">Best Houseplants Room by Room</h5>
-              <p class="blog-card__text">
-                The benefits of houseplants are endless. In addition to..
-              </p>
-              <a href="#!" class="blog-card__link">
-                Read More
-                <svg
-                  width="16"
-                  height="16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M2.667 7.817a.5.5 0 0 1 .432-.495l.068-.005h10a.5.5 0 0 1 .068.996l-.068.004h-10a.5.5 0 0 1-.5-.5Z"
-                    fill="#3D3D3D"
-                  />
-                  <path
-                    d="M8.78 4.155a.5.5 0 0 1 .65-.757l.056.049 4.034 4.016a.5.5 0 0 1 .048.652l-.048.056-4.034 4.017a.5.5 0 0 1-.754-.653l.049-.056 3.677-3.662-3.677-3.662Z"
-                    fill="#3D3D3D"
-                  />
-                </svg>
-              </a>
-            </div>
-          </article>
-        </div>
-      </section>
+      </div>
     </div>
   </body>
 </html>
