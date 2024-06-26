@@ -32,6 +32,7 @@
 .welcome__text {
   margin-bottom: 44px;
   color: var(--dark-gray);
+  line-height: 1.7;
 }
 
 .welcome__btn {

@@ -20,15 +20,25 @@
 }
 
 .nav {
+  height: 100%;
+}
+
+.nav-list {
   display: flex;
-  align-items: flex-start;
   column-gap: 50px;
   height: 100%;
 }
 
-.nav__link {
+.nav-list__item {
+  position: relative;
+}
+
+.nav-list__link {
+  display: block;
   height: 100%;
+  font-family: "Encode Sans Expanded", sans-serif;
   font-size: 16px;
+  white-space: nowrap;
   color: var(--light-black);
   border-bottom: 3px solid transparent;
   transition-property: border-color;
@@ -36,14 +46,85 @@
   transition-timing-function: ease;
 }
 
-.nav__link_active {
+.nav-list__link--active {
   cursor: default;
   font-weight: 700;
   border-bottom: 3px solid var(--green);
 }
 
-.nav__link:hover {
+.nav-list__item:hover .nav-list__link {
   border-bottom: 3px solid var(--green);
+}
+
+.dropdown-list {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  top: 100%;
+  padding-top: 12px;
+  min-width: 190px;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.dropdown-list__item {
+  display: block;
+  background-color: #edf6ee;
+  white-space: nowrap;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+.dropdown-list__item:hover {
+  background-color: #1a712a;
+}
+
+.dropdown-list__item:hover > .dropdown-list__link {
+  color: #fff;
+  font-weight: 700;
+}
+
+.nav-list__item:hover > .dropdown-list {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdown-list__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 14px;
+  font-family: "Encode Sans Expanded", sans-serif;
+  color: var(--light-black);
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+.icon-dropdown-arrow {
+  width: 10px;
+  height: 10px;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.dropdown-list__link:hover > .icon-dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+.dropdown-list--right {
+  left: 100%;
+  padding-top: 0;
+  top: 12px;
+  min-height: 100%;
+}
+
+.dropdown-list__item:hover > .dropdown-list {
+  opacity: 1;
+  visibility: visible;
 }
 
 .login {

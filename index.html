@@ -3,20 +3,94 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Green shop</title>
   </head>
   <body>
+    <svg
+      aria-hidden="true"
+      style="position: absolute; width: 0; height: 0; overflow: hidden"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <defs>
+        <symbol id="icon-dropdown-arrow" viewBox="0 0 32 32">
+          <path
+            d="M6.962 3.028c-0.346-0.31-0.562-0.757-0.562-1.256 0-0.495 0.214-0.941 0.554-1.249l0.001-0.001c0.356-0.324 0.832-0.522 1.354-0.522 0.421 0 0.813 0.129 1.136 0.351l-0.007-0.004 0.214 0.17 15.385 14.227c0.345 0.309 0.562 0.756 0.562 1.254 0 0.403-0.142 0.773-0.379 1.063l0.002-0.003-0.186 0.198-15.385 14.23c-0.355 0.32-0.827 0.516-1.345 0.516-0.521 0-0.996-0.198-1.354-0.523l0.002 0.001c-0.341-0.309-0.554-0.753-0.554-1.247 0-0.402 0.141-0.771 0.377-1.060l-0.002 0.003 0.186-0.202 14.028-12.972-14.028-12.972z"
+          ></path>
+        </symbol>
+      </defs>
+    </svg>
     <div class="container">
       <header class="header">
         <a href="#!" class="logo">
           <img src="./img/Logo.svg" alt="logo" class="logo__image" />
         </a>
         <nav class="nav">
-          <a href="#!" class="nav__link nav__link_active">Home</a>
-          <a href="#!" class="nav__link">Shop</a>
-          <a href="#!" class="nav__link">Plant Care</a>
-          <a href="#!" class="nav__link">Blogs</a>
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a href="#!" class="nav-list__link nav-list__link--active"
+                >Home</a
+              >
+            </li>
+            <li class="nav-list__item">
+              <a href="#!" class="nav-list__link">Shop</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#!" class="nav-list__link">Plant Care</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-list__item">
+                  <a href="#!" class="dropdown-list__link"> Drainage </a>
+                </li>
+                <li class="dropdown-list__item">
+                  <a href="#!" class="dropdown-list__link"> Fungicides </a>
+                </li>
+                <li class="dropdown-list__item">
+                  <a href="#!" class="dropdown-list__link"> Fertilizer </a>
+                </li>
+                <li class="dropdown-list__item">
+                  <a href="#!" class="dropdown-list__link">
+                    Priming
+                    <svg class="icon icon-dropdown-arrow">
+                      <use xlink:href="#icon-dropdown-arrow"></use>
+                    </svg>
+                  </a>
+                  <ul class="dropdown-list dropdown-list--right">
+                    <li class="dropdown-list__item">
+                      <a href="#!" class="dropdown-list__link"> Universal </a>
+                    </li>
+                    <li class="dropdown-list__item">
+                      <a href="#!" class="dropdown-list__link"> For Ficus </a>
+                    </li>
+                    <li class="dropdown-list__item">
+                      <a href="#!" class="dropdown-list__link"> For Cacti </a>
+                    </li>
+                    <li class="dropdown-list__item">
+                      <a href="#!" class="dropdown-list__link"> For Citrus </a>
+                    </li>
+                    <li class="dropdown-list__item">
+                      <a href="#!" class="dropdown-list__link">
+                        For those in bloom
+                      </a>
+                    </li>
+                    <li class="dropdown-list__item">
+                      <a href="#!" class="dropdown-list__link"> For Orchids </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-list__item">
+              <a href="#!" class="nav-list__link">Blogs</a>
+            </li>
+          </ul>
         </nav>
         <div class="login">
           <button type="button" class="login__btn">
@@ -47,9 +121,7 @@
               trendy plants. Use our plants to create an unique Urban Jungle.
               Order your favorite plants!
             </p>
-            <button type="button" class="welcome__btn btn">
-              SHOP NOW
-            </button>
+            <button type="button" class="welcome__btn btn">SHOP NOW</button>
           </div>
         </section>
       </main>
