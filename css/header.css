@@ -111,7 +111,7 @@
   transition-timing-function: ease;
 }
 
-.dropdown-list__link:hover > .icon-dropdown-arrow {
+.dropdown-list__item:hover .icon-dropdown-arrow {
   transform: rotate(180deg);
 }
 
@@ -122,7 +122,7 @@
   min-height: 100%;
 }
 
-.dropdown-list__item:hover > .dropdown-list {
+.dropdown-list__item:hover .dropdown-list {
   opacity: 1;
   visibility: visible;
 }
