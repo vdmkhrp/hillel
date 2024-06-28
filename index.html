@@ -3,129 +3,145 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0"
     />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Green shop</title>
   </head>
   <body>
-    <svg
-      aria-hidden="true"
-      style="position: absolute; width: 0; height: 0; overflow: hidden"
-      version="1.1"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-    >
-      <defs>
-        <symbol id="icon-dropdown-arrow" viewBox="0 0 32 32">
-          <path
-            d="M6.962 3.028c-0.346-0.31-0.562-0.757-0.562-1.256 0-0.495 0.214-0.941 0.554-1.249l0.001-0.001c0.356-0.324 0.832-0.522 1.354-0.522 0.421 0 0.813 0.129 1.136 0.351l-0.007-0.004 0.214 0.17 15.385 14.227c0.345 0.309 0.562 0.756 0.562 1.254 0 0.403-0.142 0.773-0.379 1.063l0.002-0.003-0.186 0.198-15.385 14.23c-0.355 0.32-0.827 0.516-1.345 0.516-0.521 0-0.996-0.198-1.354-0.523l0.002 0.001c-0.341-0.309-0.554-0.753-0.554-1.247 0-0.402 0.141-0.771 0.377-1.060l-0.002 0.003 0.186-0.202 14.028-12.972-14.028-12.972z"
-          ></path>
-        </symbol>
-      </defs>
-    </svg>
-    <div class="container">
-      <header class="header">
-        <a href="#!" class="logo">
-          <img src="./img/Logo.svg" alt="logo" class="logo__image" />
-        </a>
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-list__item">
-              <a href="#!" class="nav-list__link nav-list__link--active"
-                >Home</a
-              >
-            </li>
-            <li class="nav-list__item">
-              <a href="#!" class="nav-list__link">Shop</a>
-            </li>
-            <li class="nav-list__item">
-              <a href="#!" class="nav-list__link">Plant Care</a>
-              <ul class="dropdown-list">
-                <li class="dropdown-list__item">
-                  <a href="#!" class="dropdown-list__link"> Drainage </a>
-                </li>
-                <li class="dropdown-list__item">
-                  <a href="#!" class="dropdown-list__link"> Fungicides </a>
-                </li>
-                <li class="dropdown-list__item">
-                  <a href="#!" class="dropdown-list__link"> Fertilizer </a>
-                </li>
-                <li class="dropdown-list__item">
-                  <a href="#!" class="dropdown-list__link">
-                    Priming
-                    <svg class="icon icon-dropdown-arrow">
-                      <use xlink:href="#icon-dropdown-arrow"></use>
-                    </svg>
-                  </a>
-                  <ul class="dropdown-list dropdown-list--right">
-                    <li class="dropdown-list__item">
-                      <a href="#!" class="dropdown-list__link"> Universal </a>
-                    </li>
-                    <li class="dropdown-list__item">
-                      <a href="#!" class="dropdown-list__link"> For Ficus </a>
-                    </li>
-                    <li class="dropdown-list__item">
-                      <a href="#!" class="dropdown-list__link"> For Cacti </a>
-                    </li>
-                    <li class="dropdown-list__item">
-                      <a href="#!" class="dropdown-list__link"> For Citrus </a>
-                    </li>
-                    <li class="dropdown-list__item">
-                      <a href="#!" class="dropdown-list__link">
-                        For those in bloom
-                      </a>
-                    </li>
-                    <li class="dropdown-list__item">
-                      <a href="#!" class="dropdown-list__link"> For Orchids </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-list__item">
-              <a href="#!" class="nav-list__link">Blogs</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="login">
-          <button type="button" class="login__btn">
-            <img
-              src="./img/search-black.svg"
-              alt="search"
-              class="login__btn-image"
-            />
-          </button>
-          <button type="button" class="login__btn">
-            <img src="./img/basket.svg" alt="basket" class="login__btn-image" />
-          </button>
-          <button type="button" class="login__btn btn">
-            <img src="./img/Logout.svg" alt="logout" class="login__btn-image" />
-            <p>Login</p>
-          </button>
-        </div>
-      </header>
-      <main class="page">
-        <section class="welcome container">
-          <div class="welcome__content">
-            <h2 class="welcome__sub-title">Welcome to GreenShop</h2>
-            <h1 class="welcome__title">
-              Let’s Make a Better <span>Planet</span>
-            </h1>
-            <p class="welcome__text">
-              We are an online plant shop offering a wide range of cheap and
-              trendy plants. Use our plants to create an unique Urban Jungle.
-              Order your favorite plants!
-            </p>
-            <button type="button" class="welcome__btn btn">SHOP NOW</button>
+    <footer class="footer container">
+      <div class="footer__top footer-row">
+        <div class="footer-row__left">
+          <div class="footer-row__column">
+            <div class="footer__content">
+              <div class="footer__image footer__image--bg-first"></div>
+              <h4 class="footer__title">Garden Care</h4>
+              <p class="footer__text">
+                We are an online plant shop offering a wide range of cheap and
+                trendy plants.
+              </p>
+            </div>
           </div>
-        </section>
-      </main>
-      <footer class="footer"></footer>
-    </div>
+          <div class="footer-row__column">
+            <div class="footer__content">
+              <div class="footer__image footer__image--bg-second"></div>
+              <h4 class="footer__title">Plant Renovation</h4>
+              <p class="footer__text">
+                We are an online plant shop offering a wide range of cheap and
+                trendy plants.
+              </p>
+            </div>
+          </div>
+          <div class="footer-row__column">
+            <div class="footer__content">
+              <div class="footer__image footer__image--bg-third"></div>
+              <h4 class="footer__title">Watering Garden</h4>
+              <p class="footer__text">
+                We are an online plant shop offering a wide range of cheap and
+                trendy plants.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-row__right">
+          <div class="footer__newsletter">
+            <h4 class="footer__title">Would you like to join newsletters?</h4>
+            <div class="input-group">
+              <input
+                type="email"
+                class="input-group__input"
+                placeholder="enter your email address..."
+              />
+              <button type="button" class="input-group__btn btn">Join</button>
+            </div>
+            <p class="footer__text">
+              We usually post offers and challenges in newsletter. We’re your
+              online houseplant destination. We offer a wide range of
+              houseplants and accessories shipped directly from our (green)house
+              to yours!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__mid">
+        <a href="#!" class="footer__logo">
+          <img src="./img/Logo.svg" alt="" />
+        </a>
+        <a href="#!" class="footer__link">
+          <span class="material-symbols-rounded"> location_on </span>
+          <span>70 West Buckingham Ave. Farmingdale, NY 11735</span>
+        </a>
+        <a href="mailto:contact@greenshop.com" class="footer__link">
+          <span class="material-symbols-rounded"> mail </span>
+          <span>contact@greenshop.com</span>
+        </a>
+        <a href="tel:+8801911717490" class="footer__link">
+          <span class="material-symbols-rounded"> phone_in_talk </span>
+          <span>+88 01911 717 490</span>
+        </a>
+      </div>
+      <div class="footer__bot footer-row">
+        <div class="footer-row__left">
+          <div class="footer-row__column">
+            <h4 class="footer__title">My Account</h4>
+            <nav class="footer__nav">
+              <a href="#!" class="footer__nav-link">My Account</a>
+              <a href="#!" class="footer__nav-link">Our stores</a>
+              <a href="#!" class="footer__nav-link">Contact us</a>
+              <a href="#!" class="footer__nav-link">Career</a>
+              <a href="#!" class="footer__nav-link">Specials</a>
+            </nav>
+          </div>
+          <div class="footer-row__column">
+            <h4 class="footer__title">Help & Guide</h4>
+            <nav class="footer__nav">
+              <a href="#!" class="footer__nav-link">Help Center</a>
+              <a href="#!" class="footer__nav-link">How to Buy</a>
+              <a href="#!" class="footer__nav-link">Shipping & Delivery</a>
+              <a href="#!" class="footer__nav-link">Product Policy</a>
+              <a href="#!" class="footer__nav-link">How to Return</a>
+            </nav>
+          </div>
+          <div class="footer-row__column">
+            <h4 class="footer__title">Categories</h4>
+            <nav class="footer__nav">
+              <a href="#!" class="footer__nav-link">House Plants</a>
+              <a href="#!" class="footer__nav-link">Potter Plants</a>
+              <a href="#!" class="footer__nav-link">Seeds</a>
+              <a href="#!" class="footer__nav-link">Small Plants</a>
+              <a href="#!" class="footer__nav-link">Accessories</a>
+            </nav>
+          </div>
+        </div>
+        <div class="footer-row__right">
+          <div class="footer__social">
+            <h4 class="footer__title">Social Media</h4>
+            <div class="footer__social-nav">
+              <a href="#!" class="footer__social-link">
+                <img src="./img/facebook.svg" alt="" />
+              </a>
+              <a href="#!" class="footer__social-link">
+                <img src="./img/instagram.svg" alt="" />
+              </a>
+              <a href="#!" class="footer__social-link">
+                <img src="./img/twitter.svg" alt="" />
+              </a>
+              <a href="#!" class="footer__social-link">
+                <img src="./img/linkidin.svg" alt="" />
+              </a>
+              <a href="#!" class="footer__social-link">
+                <img src="./img/youtube.svg" alt="" />
+              </a>
+            </div>
+            <h4 class="footer__title">We accept</h4>
+            <div class="footer__image">
+              <img src="./img/banks.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
