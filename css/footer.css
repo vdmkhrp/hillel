@@ -184,16 +184,23 @@
   object-position: center;
 }
 
-.footer__image {
+.footer__bot-image {
   width: 224px;
   height: 26px;
   margin-top: 13px;
 }
 
-.footer__image img {
+.footer__bot-image img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: contain;
-  object-position: left;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: var(--light-black);
+  border-top: 1px solid rgba(70, 163, 88, 0.2);
 }
