@@ -54,3 +54,25 @@
     url("../fonts/CeraProBlack.svg") format("svg");
   font-weight: 900;
 }
+
+@font-face {
+  font-family: "EncodeSansExpanded", sans-serif;
+  src: local("EncodeSansExpanded"),
+    url("../fonts/EncodeSansExpanded-Regular.eot") format("embedded-opentype"),
+    url("../fonts/EncodeSansExpanded-Regular.woff2") format("woff2"),
+    url("../fonts/EncodeSansExpanded-Regular.woff") format("woff"),
+    url("../fonts/EncodeSansExpanded-Regular.ttf") format("truetype"),
+    url("../fonts/EncodeSansExpanded-Regular.svg") format("svg");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "EncodeSansExpanded", sans-serif;
+  src: local("EncodeSansExpanded"),
+    url("../fonts/EncodeSansExpanded-Regular.eot") format("embedded-opentype"),
+    url("../fonts/EncodeSansExpanded-Bold.woff2") format("woff2"),
+    url("../fonts/EncodeSansExpanded-Bold.woff") format("woff"),
+    url("../fonts/EncodeSansExpanded-Bold.ttf") format("truetype"),
+    url("../fonts/EncodeSansExpanded-Bold.svg") format("svg");
+  font-weight: 700;
+}
