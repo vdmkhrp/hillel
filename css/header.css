@@ -131,17 +131,43 @@
 .login {
   display: flex;
   align-items: center;
-  column-gap: 30px;
+  column-gap: 10px;
 }
 
 .login__btn {
   display: flex;
   align-items: center;
-  column-gap: 4px;
   cursor: pointer;
+  padding: 5px;
+  font-size: 20px;
+  position: relative;
+}
+
+.login__btn-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 16px;
+  min-width: 16px;
+  padding-left: 2px;
+  padding-right: 2px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  background-color: var(--accent-color);
+  line-height: 1;
+  color: #fff;
 }
 
 .login__btn p {
   font-size: 16px;
   font-weight: 500;
+}
+
+.login__btn .material-symbols-rounded {
+  font-size: 20px;
 }

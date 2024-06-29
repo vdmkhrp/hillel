@@ -56,9 +56,6 @@
 }
 
 .popular__btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   column-gap: 2px;
   padding: 10px 28px;
   font-size: 14px;

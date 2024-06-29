@@ -140,10 +140,10 @@
   max-width: 205px;
 }
 
-/* .material-symbols-rounded {
+.footer__icon {
   font-size: 20px;
   color: var(--accent-color);
-} */
+}
 
 .footer__bot {
   padding: 34px 26px;

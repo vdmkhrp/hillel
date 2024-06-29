@@ -13,11 +13,14 @@ body {
 }
 
 .btn {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  cursor: pointer;
   border-radius: 6px;
   background-color: var(--accent-color);
   color: #fff;
   padding: 8px 16px;
-  cursor: pointer;
 }
 
 .icon {
