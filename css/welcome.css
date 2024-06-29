@@ -1,5 +1,5 @@
 .welcome {
-  background-color: var(--bg-gray);
+  background-color: var(--bg-color);
   padding-top: 68px;
   padding-bottom: 85px;
   background-image: url(../img/plants.png);
@@ -26,12 +26,12 @@
 }
 
 .welcome__title span {
-  color: var(--green);
+  color: var(--accent-color);
 }
 
 .welcome__text {
   margin-bottom: 44px;
-  color: var(--dark-gray);
+  color: var(--secondary-color);
   line-height: 1.7;
 }
 

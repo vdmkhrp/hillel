@@ -1,7 +1,7 @@
 body {
   font-family: "CeraPro", sans-serif;
   font-size: 15px;
-  color: var(--light-black);
+  color: var(--primary-color);
 }
 
 .container {
@@ -14,7 +14,7 @@ body {
 
 .btn {
   border-radius: 6px;
-  background-color: var(--green);
+  background-color: var(--accent-color);
   color: #fff;
   padding: 8px 16px;
   cursor: pointer;

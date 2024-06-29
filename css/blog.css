@@ -19,7 +19,7 @@
 .blog__text {
   font-size: 14px;
   line-height: 1.5;
-  color: var(--dark-gray);
+  color: var(--secondary-color);
 }
 
 .blog__cards {
@@ -30,7 +30,7 @@
 
 .blog-card {
   flex: 1 1 250px;
-  background-color: var(--bg-gray);
+  background-color: var(--bg-color);
 }
 
 .blog-card__img {
@@ -53,7 +53,7 @@
 .blog-card__sub-title {
   font-weight: 500;
   font-size: 14px;
-  color: var(--green);
+  color: var(--accent-color);
 }
 
 .blog-card__sub-title span:not(:first-child)::before {
@@ -61,7 +61,7 @@
   display: inline-block;
   height: 1cap;
   width: 1px;
-  background-color: var(--green);
+  background-color: var(--accent-color);
   margin-right: 5px;
 }
 
@@ -74,23 +74,23 @@
 .blog-card__text {
   font-size: 14px;
   line-height: 1.5;
-  color: var(--dark-gray);
+  color: var(--secondary-color);
 }
 
 .blog-card__link {
   width: fit-content;
   font-weight: 500;
   font-size: 14px;
-  color: var(--light-black);
+  color: var(--primary-color);
   display: flex;
   align-items: center;
   column-gap: 3px;
 }
 
 .blog-card__link:hover {
-  color: var(--green);
+  color: var(--accent-color);
 }
 
 .blog-card__link:hover path {
-  fill: var(--green);
+  fill: var(--accent-color);
 }

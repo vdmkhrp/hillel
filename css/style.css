@@ -4,5 +4,7 @@
 @import url(./base.css);
 @import url(./header.css);
 @import url(./welcome.css);
-@import url(./footer.css);
+@import url(./catalog.css);
+@import url(./popular.css);
 @import url(./blog.css);
+@import url(./footer.css);

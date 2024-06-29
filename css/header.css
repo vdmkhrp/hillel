@@ -40,21 +40,21 @@
   font-family: "EncodeSansExpanded", sans-serif;
   font-size: 16px;
   white-space: nowrap;
-  color: var(--light-black);
+  color: var(--primary-color);
   border-bottom: 3px solid transparent;
   transition-property: border-color;
-  transition-duration: 0.2s;
+  transition-duration: var(--animation-duration);
   transition-timing-function: ease;
 }
 
 .nav-list__link--active {
   cursor: default;
   font-weight: 700;
-  border-bottom: 3px solid var(--green);
+  border-bottom: 3px solid var(--accent-color);
 }
 
 .nav-list__item:hover .nav-list__link {
-  border-bottom: 3px solid var(--green);
+  border-bottom: 3px solid var(--accent-color);
 }
 
 .dropdown-list {
@@ -65,7 +65,7 @@
   padding-top: 12px;
   min-width: 190px;
   transition-property: opacity;
-  transition-duration: 0.2s;
+  transition-duration: var(--animation-duration);
   transition-timing-function: ease-in-out;
 }
 
@@ -74,7 +74,7 @@
   background-color: #edf6ee;
   white-space: nowrap;
   transition-property: background-color;
-  transition-duration: 0.2s;
+  transition-duration: var(--animation-duration);
   transition-timing-function: ease;
 }
 
@@ -98,9 +98,9 @@
   justify-content: space-between;
   padding: 8px 14px;
   font-family: "EncodeSansExpanded", sans-serif;
-  color: var(--light-black);
+  color: var(--primary-color);
   transition-property: color;
-  transition-duration: 0.2s;
+  transition-duration: var(--animation-duration);
   transition-timing-function: ease;
 }
 
@@ -108,7 +108,7 @@
   width: 10px;
   height: 10px;
   transition-property: transform;
-  transition-duration: 0.5s;
+  transition-duration: var(--animation-duration);
   transition-timing-function: ease;
 }
 
