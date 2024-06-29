@@ -159,6 +159,13 @@
 .footer__nav-link {
   color: var(--primary-color);
   line-height: 1.7;
+  transition-property: color;
+  transition-duration: var(----animation-duration);
+  transition-timing-function: ease;
+}
+
+.footer__nav-link:hover {
+  color: var(--accent-color);
 }
 
 .footer__social-nav {
