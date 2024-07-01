@@ -43,7 +43,7 @@
   object-fit: cover;
 }
 
-.blog-card__content{
+.blog-card__content {
   display: flex;
   flex-direction: column;
   row-gap: 4px;

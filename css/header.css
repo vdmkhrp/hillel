@@ -163,11 +163,12 @@
   color: #fff;
 }
 
-.login__btn p {
+.login__text {
   font-size: 16px;
   font-weight: 500;
 }
 
 .login__btn .material-symbols-rounded {
   font-size: 20px;
+  color: #000;
 }

@@ -97,6 +97,7 @@
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
   flex-grow: 1;
+  outline: none;
 }
 
 .input-group__input::placeholder {
