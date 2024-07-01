@@ -88,14 +88,17 @@
 .input-group {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
   display: flex;
+  border-radius: 6px;
 }
 
 .input-group__input {
   padding: 12px;
   background-color: #fff;
   border: 0;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   flex-grow: 1;
   outline: none;
 }

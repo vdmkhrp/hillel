@@ -22,14 +22,14 @@ body {
   color: #fff;
   padding: 8px 16px;
   border: 2px solid transparent;
-  transition-property: color, background-color;
+  transition-property: color, background-color, border-color;
   transition-duration: var(--animation-duration);
   transition-timing-function: ease-in-out;
 }
 
 .btn:hover {
   border-color: var(--accent-color);
-  background-color: #fff;
+  background-color: transparent;
   color: var(--accent-color);
 }
 
