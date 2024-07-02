@@ -105,8 +105,6 @@
 }
 
 .icon-dropdown-arrow {
-  width: 10px;
-  height: 10px;
   transition-property: transform;
   transition-duration: var(--animation-duration);
   transition-timing-function: ease;
@@ -152,8 +150,8 @@
   padding-left: 2px;
   padding-right: 2px;
   position: absolute;
-  left: 50%;
-  top: 0;
+  right: -3px;
+  top: 3px;
   font-size: 10px;
   font-weight: 500;
   border-radius: 8px;
@@ -161,6 +159,18 @@
   background-color: var(--accent-color);
   line-height: 1;
   color: #fff;
+}
+
+.header__icon:hover {
+  color: var(--accent-color);
+}
+
+.icon-card {
+  --icon-size: 24px;
+}
+
+.icon-logout {
+  --icon-size: 20px;
 }
 
 .login__text {

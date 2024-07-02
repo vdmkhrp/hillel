@@ -87,6 +87,10 @@
   column-gap: 3px;
 }
 
+.blog-card__icon {
+  --icon-size: 16px;
+}
+
 .blog-card__link:hover {
   color: var(--accent-color);
 }

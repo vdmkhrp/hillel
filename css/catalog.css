@@ -168,8 +168,8 @@
   color: var(--accent-color);
 }
 
-.filter__btn-icon {
-  font-size: 16px;
+.filter__icon {
+  --icon-size: 16px;
 }
 
 .cards-box {
@@ -226,6 +226,10 @@
 
 .card-action__btn:hover .icon {
   color: var(--accent-color);
+}
+
+.card-cation__icon {
+  --icon-size: 20px;
 }
 
 .card-item__link-wrapper {
@@ -309,6 +313,10 @@
   transition-timing-function: ease;
 }
 
+.pagination__link:last-child {
+  padding: 6px 8px;
+}
+
 .pagination__link--active {
   cursor: default;
 }
@@ -319,4 +327,8 @@
   background-color: var(--accent-color);
   border-color: transparent;
   color: #fff;
+}
+
+.pagination__icon {
+  --icon-size: 18px;
 }
