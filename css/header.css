@@ -168,7 +168,7 @@
   transition-timing-function: ease;
 }
 
-.header__icon:hover {
+.login__btn:hover .header__icon {
   color: var(--accent-color);
 }
 
