@@ -161,6 +161,13 @@
   color: #fff;
 }
 
+.header__icon {
+  color: var(--primary-color);
+  transition-property: color;
+  transition-duration: var(--animation-duration);
+  transition-timing-function: ease;
+}
+
 .header__icon:hover {
   color: var(--accent-color);
 }
