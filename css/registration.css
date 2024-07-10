@@ -1,6 +1,7 @@
 @import url(./custom-reset.css);
 @import url(./variables.css);
 @import url(./fonts.css);
+@import url(./preloader.css);
 
 body {
   font-family: "CeraPro", sans-serif;

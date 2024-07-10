@@ -113,12 +113,15 @@
   border-bottom-left-radius: 0;
 }
 
+.footer__gradient {
+  background-image: linear-gradient(to right, #edf6ef, #52c368);
+}
+
 .footer__mid {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 26px 22px;
-  background-image: linear-gradient(to right, #edf6ef, #52c368);
 }
 
 .footer__logo {
