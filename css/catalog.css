@@ -332,3 +332,18 @@
 .pagination__icon {
   --icon-size: 18px;
 }
+
+@media (max-width: 1024px) {
+  .sidebar {
+    min-width: 250px;
+  }
+  .range {
+    width: 168px;
+  }
+  .catalog {
+    column-gap: 40px;
+  }
+  .catalog__nav {
+    column-gap: 30px;
+  }
+}

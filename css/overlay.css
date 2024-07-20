@@ -1,0 +1,17 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(var(--accent-color--rgb), 0.7);
+  backdrop-filter: blur(3px);
+  transition-property: opacity, visibility;
+  transition-duration: var(--animation-duration);
+  transition-timing-function: ease-out;
+  z-index: 10;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
