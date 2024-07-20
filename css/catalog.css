@@ -6,17 +6,16 @@
 
 .menu-sidebar {
   display: none;
+
   @media (max-width: 768px) {
-    position: absolute;
-    top: 46px;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    rotate: 180deg;
-    transition-property: rotate;
-    transition-duration: var(--animation-duration);
-    transition-timing-function: ease-in-out;
+    /* without & live edit in chrome does not working */
+    & {
+      display: flex;
+      rotate: 180deg;
+      transition-property: rotate;
+      transition-duration: var(--animation-duration);
+      transition-timing-function: ease-in-out;
+    }
   }
 }
 
@@ -113,6 +112,8 @@
   pointer-events: none;
   @media (max-width: 768px) {
     color: #fff;
+
+    /* ::first-letter works only with display: block */
     &::first-letter {
       color: var(--accent-color);
       font-size: 1.2em;
@@ -124,10 +125,10 @@
   padding-left: 30px;
   padding-bottom: 46px;
   position: relative;
-    @media (max-width: 768px) {
-      padding-left: 10px;
-      padding-bottom: 10px;
-    }
+  @media (max-width: 768px) {
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 .menu-filter__text {
@@ -193,6 +194,7 @@
 .catalog {
   display: flex;
   align-items: flex-start;
+
   @media (max-width: 1024px) {
     column-gap: 40px;
   }
@@ -208,11 +210,11 @@
 
 .catalog__header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding-bottom: 30px;
+
   @media (max-width: 768px) {
-    padding-right: 60px;
+    column-gap: 20px;
   }
 }
 
@@ -221,7 +223,12 @@
   column-gap: 40px;
   align-items: center;
   @media (max-width: 1024px) {
-    column-gap: 30px;
+    & {
+      column-gap: 30px;
+    }
+  }
+  @media (max-width: 768px) {
+    margin-right: auto;
   }
 }
 
@@ -236,7 +243,7 @@
 }
 
 .catalog__nav-link--active {
-  cursor: default;
+  pointer-events: none;
 }
 
 .catalog__nav-link:hover,

@@ -12,6 +12,11 @@
   max-width: 560px;
   padding-left: 40px;
   font-size: 14px;
+  @media (max-width: 768px) {
+    & {
+      padding-left: 10px;
+    }
+  }
 }
 
 .welcome__sub-title {
