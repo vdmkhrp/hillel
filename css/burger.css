@@ -6,6 +6,9 @@
   width: 35px;
   height: 20px;
   cursor: pointer;
+  @media (max-width: 768px) {
+    display: flex;
+  }
 }
 
 .burger-btn__item {
