@@ -85,16 +85,16 @@
   display: flex;
   align-items: center;
   column-gap: 3px;
+  @media (hover: hover) {
+    &:hover {
+      color: var(--accent-color);
+      path {
+        fill: var(--accent-color);
+      }
+    }
+  }
 }
 
 .blog-card__icon {
   --icon-size: 16px;
-}
-
-.blog-card__link:hover {
-  color: var(--accent-color);
-}
-
-.blog-card__link:hover path {
-  fill: var(--accent-color);
 }

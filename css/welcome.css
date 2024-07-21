@@ -6,6 +6,25 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
+  @media (max-width: 1024px) {
+    & {
+      background-position: right -200px center;
+      margin-inline: -15px;
+      padding-inline: 15px;
+    }
+  }
+  @media (max-width: 768px) {
+    & {
+      padding-bottom: 300px;
+      background-size: auto 400px;
+      background-position: bottom;
+    }
+  }
+  @media (max-width: 425px) {
+    & {
+      padding-top: 34px;
+    }
+  }
 }
 
 .welcome__content {
@@ -14,7 +33,7 @@
   font-size: 14px;
   @media (max-width: 768px) {
     & {
-      padding-left: 10px;
+      padding-left: 0;
     }
   }
 }
@@ -29,7 +48,14 @@
   font-weight: 900;
   font-size: 70px;
   @media (max-width: 1024px) {
-    font-size: 60px;
+    & {
+      font-size: 60px;
+    }
+  }
+  @media (max-width: 425px) {
+    & {
+      font-size: 45px;
+    }
   }
 }
 
@@ -41,6 +67,11 @@
   margin-bottom: 44px;
   color: var(--secondary-color);
   line-height: 1.7;
+  @media (max-width: 425px) {
+    & {
+      font-size: 12px;
+    }
+  }
 }
 
 .welcome__btn {

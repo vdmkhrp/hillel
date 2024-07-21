@@ -26,12 +26,13 @@ body {
   transition-property: color, background-color, border-color;
   transition-duration: var(--animation-duration);
   transition-timing-function: ease-in-out;
-}
-
-.btn:hover {
-  border-color: var(--accent-color);
-  background-color: transparent;
-  color: var(--accent-color);
+  @media (hover: hover) {
+    &:hover {
+      border-color: var(--accent-color);
+      background-color: transparent;
+      color: var(--accent-color);
+    }
+  }
 }
 
 .icon {

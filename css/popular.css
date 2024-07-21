@@ -5,6 +5,9 @@
   padding-top: 70px;
   padding-bottom: 70px;
   flex-wrap: wrap;
+  @media (max-width: 425px) {
+    padding-top: 35px;
+  }
 }
 
 .popular__item {
@@ -14,6 +17,21 @@
   padding-top: 35px;
   padding-bottom: 45px;
   margin-top: 50px;
+  @media (max-width: 768px) {
+    & {
+      margin-inline: -15px;
+      padding-inline: 15px;
+    }
+  }
+  @media (max-width: 425px) {
+    & {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 30px;
+      margin-top: 0;
+    }
+  }
 }
 
 .popular__img {
@@ -22,6 +40,12 @@
   bottom: 0;
   top: -50px;
   width: 50%;
+  @media (max-width: 425px) {
+    & {
+      position: static;
+      width: 70%;
+    }
+  }
 }
 
 .popular__img img {
@@ -40,6 +64,14 @@
   margin-left: auto;
   text-align: right;
   padding-left: 10px;
+  @media (max-width: 425px) {
+    padding-right: 0;
+    margin-left: 0;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 .popular__title {
