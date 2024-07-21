@@ -10,23 +10,14 @@ body {
 
 .container {
   position: relative;
-  max-width: 500px;
+  max-width: 300px;
   margin-left: auto;
   margin-top: 52px;
   margin-right: auto;
-  padding-inline: 100px;
   border-bottom: 10px solid var(--accent-color);
   @media (max-width: 768px) {
     & {
       margin-top: 0;
-      max-width: 460px;
-      padding-inline: 80px;
-    }
-  }
-  @media (max-width: 375px) {
-    & {
-      max-width: 100%;
-      padding-inline: 30px;
     }
   }
 }
