@@ -55,16 +55,20 @@
 
 .menu.active {
   @media (max-width: 768px) {
-    translate: 0;
-    opacity: 1;
+    & {
+      translate: 0;
+      opacity: 1;
+    }
   }
 }
 
 .nav {
   height: 100%;
   @media (max-width: 768px) {
-    height: auto;
-    width: 100%;
+    & {
+      height: auto;
+      width: 100%;
+    }
   }
 }
 
@@ -73,8 +77,10 @@
   column-gap: 50px;
   height: 100%;
   @media (max-width: 768px) {
-    flex-direction: column;
-    row-gap: 0;
+    & {
+      flex-direction: column;
+      row-gap: 0;
+    }
   }
 }
 
@@ -94,10 +100,12 @@
   transition-duration: var(--animation-duration);
   transition-timing-function: ease;
   @media (max-width: 768px) {
-    color: #fff;
-    height: auto;
-    padding: 10px 15px;
-    font-size: 14px;
+    & {
+      color: #fff;
+      height: auto;
+      padding: 10px 15px;
+      font-size: 14px;
+    }
   }
 }
 
@@ -106,10 +114,12 @@
   font-weight: 700;
   border-bottom: 3px solid var(--accent-color);
   @media (max-width: 768px) {
-    border-bottom: none;
-    &::first-letter {
-      color: var(--accent-color);
-      font-size: 1.2em;
+    & {
+      border-bottom: none;
+      &::first-letter {
+        color: var(--accent-color);
+        font-size: 1.2em;
+      }
     }
   }
 }
@@ -131,12 +141,14 @@
   transition-duration: var(--animation-duration);
   transition-timing-function: ease-in-out;
   @media (max-width: 768px) {
-    position: static;
-    opacity: 1;
-    visibility: visible;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    & {
+      position: static;
+      opacity: 1;
+      visibility: visible;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+    }
   }
 }
 
@@ -148,7 +160,9 @@
   transition-duration: var(--animation-duration);
   transition-timing-function: ease;
   @media (max-width: 768px) {
-    background-color: transparent;
+    & {
+      background-color: transparent;
+    }
   }
 }
 
@@ -177,9 +191,11 @@
   transition-duration: var(--animation-duration);
   transition-timing-function: ease;
   @media (max-width: 768px) {
-    padding: 10px 15px;
-    font-size: 14px;
-    color: #fff;
+    & {
+      padding: 10px 15px;
+      font-size: 14px;
+      color: #fff;
+    }
   }
 }
 
@@ -188,7 +204,9 @@
   transition-duration: var(--animation-duration);
   transition-timing-function: ease;
   @media (max-width: 768px) {
-    display: none;
+    & {
+      display: none;
+    }
   }
 }
 
@@ -213,9 +231,11 @@
   align-items: center;
   column-gap: 10px;
   @media (max-width: 768px) {
-    order: -1;
-    width: 100%;
-    justify-content: space-around;
+    & {
+      order: -1;
+      width: 100%;
+      justify-content: space-around;
+    }
   }
 }
 
@@ -254,7 +274,9 @@
   transition-duration: var(--animation-duration);
   transition-timing-function: ease;
   @media (max-width: 768px) {
-    color: #fff;
+    & {
+      color: #fff;
+    }
   }
 }
 

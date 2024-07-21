@@ -14,9 +14,21 @@ body {
   margin-left: auto;
   margin-top: 52px;
   margin-right: auto;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-inline: 100px;
   border-bottom: 10px solid var(--accent-color);
+  @media (max-width: 768px) {
+    & {
+      margin-top: 0;
+      max-width: 460px;
+      padding-inline: 80px;
+    }
+  }
+  @media (max-width: 375px) {
+    & {
+      max-width: 100%;
+      padding-inline: 30px;
+    }
+  }
 }
 
 .icon {
@@ -33,10 +45,14 @@ body {
   border: none;
   top: 14px;
   right: 14px;
-}
-
-.btn-close:hover {
   cursor: pointer;
+  @media (hover: hover) {
+    &:hover {
+      .btn-close__icon {
+        transform: scale(1.5);
+      }
+    }
+  }
 }
 
 .btn-close__icon {
@@ -48,16 +64,17 @@ body {
   transition-timing-function: ease;
 }
 
-.btn-close:hover .btn-close__icon {
-  transform: scale(1.5);
-}
-
 .header {
   padding-top: 52px;
   margin-bottom: 40px;
   display: flex;
   justify-content: center;
   column-gap: 28px;
+  @media (max-width: 425px) {
+    & {
+      padding-top: 20px;
+    }
+  }
 }
 
 .header__link {
@@ -124,9 +141,6 @@ body {
   bottom: 1px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
-}
-
-.btn-eye:hover {
   cursor: pointer;
 }
 
@@ -153,12 +167,13 @@ body {
   transition-property: color, background-color, border-color;
   transition-duration: var(--animation-duration);
   transition-timing-function: ease-in-out;
-}
-
-.form__button:hover {
-  border-color: var(--accent-color);
-  background-color: transparent;
-  color: var(--accent-color);
+  @media (hover: hover) {
+    &:hover {
+      border-color: var(--accent-color);
+      background-color: transparent;
+      color: var(--accent-color);
+    }
+  }
 }
 
 .subheading {
@@ -198,11 +213,12 @@ body {
   transition-property: color, border-color;
   transition-duration: var(--animation-duration);
   transition-timing-function: ease;
-}
-
-.footer__link:hover {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+  @media (hover: hover) {
+    &:hover {
+      color: var(--accent-color);
+      border-color: var(--accent-color);
+    }
+  }
 }
 
 .footer__icon {
